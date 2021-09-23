@@ -2,7 +2,7 @@
 <!doctype html>
 <!-- The following comment is called a MOTW comment and is necessary for the TiddlyIE Internet Explorer extension -->
 <!-- saved from url=(0021)https://tiddlywiki.com -->
-<html lang="en-GB">
+<html lang="zh-TW">
 <head>
 <meta http-equiv="Content-Type" content="text/html;charset=utf-8" />
 <!--~~ Raw markup for the top of the head section ~~-->
@@ -47,7 +47,7 @@ CAUSED AND ON ANY THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY,
 OR TORT (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE
 OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE." />
 <link id="faviconLink" rel="shortcut icon" href="favicon.ico">
-<title>艦これ 自用 wiki — a non-linear personal web notebook</title>
+<title>艦これ 筆記本 — 艦これ 的個人筆記</title>
 <!--~~ This is a Tiddlywiki file. The points of interest in the file are marked with this pattern ~~-->
 
 <!--~~ Raw markup ~~-->
@@ -141,7 +141,15 @@ Error message and password prompt
 
 <p>This <a class="tc-tiddlylink-external" href="https://tiddlywiki.com" rel="noopener noreferrer" target="_blank">TiddlyWiki</a> contains the following tiddlers:</p><p><ul>
 
+<li>$:/config/PageControlButtons/Visibility/$:/core/ui/Buttons/home</li>
+
+<li>$:/config/PageControlButtons/Visibility/$:/core/ui/Buttons/more-page-actions</li>
+
+<li>$:/config/PageControlButtons/Visibility/$:/core/ui/Buttons/timestamp</li>
+
 <li>$:/core</li>
+
+<li>$:/DefaultTiddlers</li>
 
 <li>$:/GitHub/Branch</li>
 
@@ -153,6 +161,8 @@ Error message and password prompt
 
 <li>$:/isEncrypted</li>
 
+<li>$:/language</li>
+
 <li>$:/languages/zh-Hant</li>
 
 <li>$:/languages/zh-TW</li>
@@ -161,15 +171,19 @@ Error message and password prompt
 
 <li>$:/plugins/tiddlywiki/markdown</li>
 
+<li>$:/SiteSubtitle</li>
+
 <li>$:/SiteTitle</li>
 
 <li>$:/state/add-plugin-info/$:/temp/ServerConnection/https://tiddlywiki.com/library/v5.1.23/index.html/$:/temp/RemoteAssetInfo/https://tiddlywiki.com/library/v5.1.23/index.html/$:/languages/zh-Hant</li>
 
 <li>$:/state/add-plugin-info/$:/temp/ServerConnection/https://tiddlywiki.com/library/v5.1.23/index.html/$:/temp/RemoteAssetInfo/https://tiddlywiki.com/library/v5.1.23/index.html/$:/languages/zh-TW</li>
 
-<li>$:/state/add-plugin-info/$:/temp/ServerConnection/https://tiddlywiki.com/library/v5.1.23/index.html/$:/temp/RemoteAssetInfo/https://tiddlywiki.com/library/v5.1.23/index.html/$:/plugins/tiddlywiki/codemirror</li>
+<li>$:/state/add-plugin-info/$:/temp/ServerConnection/https://tiddlywiki.com/library/v5.1.23/index.html/$:/temp/RemoteAssetInfo/https://tiddlywiki.com/library/v5.1.23/index.html/$:/plugins/tiddlywiki/hammerjs</li>
 
-<li>$:/state/add-plugin-info/$:/temp/ServerConnection/https://tiddlywiki.com/library/v5.1.23/index.html/$:/temp/RemoteAssetInfo/https://tiddlywiki.com/library/v5.1.23/index.html/$:/plugins/tiddlywiki/codemirror-mode-markdown</li>
+<li>$:/state/add-plugin-info/$:/temp/ServerConnection/https://tiddlywiki.com/library/v5.1.23/index.html/$:/temp/RemoteAssetInfo/https://tiddlywiki.com/library/v5.1.23/index.html/$:/plugins/tiddlywiki/help</li>
+
+<li>$:/state/add-plugin-info/$:/temp/ServerConnection/https://tiddlywiki.com/library/v5.1.23/index.html/$:/temp/RemoteAssetInfo/https://tiddlywiki.com/library/v5.1.23/index.html/$:/plugins/tiddlywiki/highlight</li>
 
 <li>$:/state/addplugins/tab-1342078386</li>
 
@@ -179,13 +193,23 @@ Error message and password prompt
 
 <li>$:/state/tab--1963855381</li>
 
+<li>$:/state/tab--2112689675</li>
+
 <li>$:/state/tab--86143343</li>
+
+<li>$:/state/tab--959111941</li>
 
 <li>$:/state/tab-1749438307</li>
 
 <li>$:/state/tab-2065006209</li>
 
+<li>$:/state/tab/moresidebar-1850697562</li>
+
+<li>$:/state/tab/sidebar--595412856</li>
+
 <li>$:/status/RequireReloadDueToPluginChange</li>
+
+<li>$:/status/UserName</li>
 
 <li>$:/StoryList</li>
 
@@ -211,6 +235,15 @@ Error message and password prompt
 <!--~~ Ordinary tiddlers ~~-->
 
 <div id="storeArea" style="display:none;">
+<div created="20210923012916794" modified="20210923012916794" title="$:/config/PageControlButtons/Visibility/$:/core/ui/Buttons/home">
+<pre>show</pre>
+</div>
+<div created="20210923012839770" modified="20210923012839770" title="$:/config/PageControlButtons/Visibility/$:/core/ui/Buttons/more-page-actions">
+<pre>show</pre>
+</div>
+<div created="20210923012852514" modified="20210923012855948" title="$:/config/PageControlButtons/Visibility/$:/core/ui/Buttons/timestamp">
+<pre>hide</pre>
+</div>
 <div author="JeremyRuston" core-version="&gt;=5.0.0" dependents="" description="TiddlyWiki5 core" list="readme" name="Core" plugin-priority="0" plugin-type="plugin" title="$:/core" type="application/json" version="5.1.23">
 <pre>{
     &quot;tiddlers&quot;: {
@@ -10075,6 +10108,9 @@ Error message and password prompt
     }
 }</pre>
 </div>
+<div created="20210923013126414" modified="20210923013142278" title="$:/DefaultTiddlers">
+<pre>GettingStarted</pre>
+</div>
 <div created="20210923011857645" modified="20210923011858129" title="$:/GitHub/Branch">
 <pre>main</pre>
 </div>
@@ -10089,6 +10125,9 @@ Error message and password prompt
 </div>
 <div title="$:/isEncrypted">
 <pre>no</pre>
+</div>
+<div created="20210923013327581" creator="Saka" modified="20210923013327581" modifier="Saka" title="$:/language">
+<pre>$:/languages/zh-TW</pre>
 </div>
 <div author="BramChen" core-version="&gt;=5.0.8" dependents="" description="Chinese (Traditional)" name="zh-Hant" plugin-priority="100" plugin-type="language" title="$:/languages/zh-Hant" type="application/json" version="5.1.23">
 <pre>{
@@ -14155,8 +14194,11 @@ Error message and password prompt
     }
 }</pre>
 </div>
-<div created="20210923012527312" modified="20210923012612649" title="$:/SiteTitle">
-<pre>艦これ 自用 wiki</pre>
+<div created="20210923013034095" modified="20210923013100311" title="$:/SiteSubtitle">
+<pre>艦これ 的個人筆記</pre>
+</div>
+<div created="20210923013010131" modified="20210923013030003" title="$:/SiteTitle">
+<pre>艦これ 筆記本</pre>
 </div>
 <div created="20210923012210141" modified="20210923012210141" title="$:/state/add-plugin-info/$:/temp/ServerConnection/https://tiddlywiki.com/library/v5.1.23/index.html/$:/temp/RemoteAssetInfo/https://tiddlywiki.com/library/v5.1.23/index.html/$:/languages/zh-Hant">
 <pre>yes</pre>
@@ -14164,10 +14206,13 @@ Error message and password prompt
 <div created="20210923012205979" modified="20210923012205979" title="$:/state/add-plugin-info/$:/temp/ServerConnection/https://tiddlywiki.com/library/v5.1.23/index.html/$:/temp/RemoteAssetInfo/https://tiddlywiki.com/library/v5.1.23/index.html/$:/languages/zh-TW">
 <pre>yes</pre>
 </div>
-<div created="20210923012711823" modified="20210923012732874" title="$:/state/add-plugin-info/$:/temp/ServerConnection/https://tiddlywiki.com/library/v5.1.23/index.html/$:/temp/RemoteAssetInfo/https://tiddlywiki.com/library/v5.1.23/index.html/$:/plugins/tiddlywiki/codemirror">
+<div created="20210923013456687" creator="Saka" modified="20210923013505238" modifier="Saka" title="$:/state/add-plugin-info/$:/temp/ServerConnection/https://tiddlywiki.com/library/v5.1.23/index.html/$:/temp/RemoteAssetInfo/https://tiddlywiki.com/library/v5.1.23/index.html/$:/plugins/tiddlywiki/hammerjs">
 <pre>no</pre>
 </div>
-<div created="20210923012638062" modified="20210923012641641" title="$:/state/add-plugin-info/$:/temp/ServerConnection/https://tiddlywiki.com/library/v5.1.23/index.html/$:/temp/RemoteAssetInfo/https://tiddlywiki.com/library/v5.1.23/index.html/$:/plugins/tiddlywiki/codemirror-mode-markdown">
+<div created="20210923013511830" creator="Saka" modified="20210923013746126" modifier="Saka" title="$:/state/add-plugin-info/$:/temp/ServerConnection/https://tiddlywiki.com/library/v5.1.23/index.html/$:/temp/RemoteAssetInfo/https://tiddlywiki.com/library/v5.1.23/index.html/$:/plugins/tiddlywiki/help">
+<pre>no</pre>
+</div>
+<div created="20210923013749253" creator="Saka" modified="20210923013749253" modifier="Saka" title="$:/state/add-plugin-info/$:/temp/ServerConnection/https://tiddlywiki.com/library/v5.1.23/index.html/$:/temp/RemoteAssetInfo/https://tiddlywiki.com/library/v5.1.23/index.html/$:/plugins/tiddlywiki/highlight">
 <pre>yes</pre>
 </div>
 <div created="20210923012147618" modified="20210923012147618" title="$:/state/addplugins/tab-1342078386">
@@ -14176,25 +14221,40 @@ Error message and password prompt
 <div created="20210923012258991" modified="20210923012301888" title="$:/state/ShowPaletteEditor">
 <pre>no</pre>
 </div>
-<div created="20210923012149564" modified="20210923012619105" title="$:/state/tab--1418380610">
+<div created="20210923012149564" creator="Saka" modified="20210923013422013" modifier="Saka" title="$:/state/tab--1418380610">
 <pre>$:/core/ui/ControlPanel/Plugins/Add/Plugins</pre>
 </div>
 <div created="20210923012232404" modified="20210923012236771" title="$:/state/tab--1963855381">
 <pre>$:/core/ui/ControlPanel/Palette</pre>
 </div>
-<div created="20210923011822260" modified="20210923012456910" title="$:/state/tab--86143343">
+<div created="20210923013402507" creator="Saka" modified="20210923013402507" modifier="Saka" title="$:/state/tab--2112689675">
+<pre>$:/core/ui/ControlPanel/Advanced</pre>
+</div>
+<div created="20210923011822260" creator="Saka" modified="20210923013415635" modifier="Saka" title="$:/state/tab--86143343">
 <pre>$:/core/ui/ControlPanel/Plugins/Installed/Plugins</pre>
 </div>
-<div created="20210923011818042" modified="20210923012615687" title="$:/state/tab-1749438307">
+<div created="20210923013407649" creator="Saka" modified="20210923013409605" modifier="Saka" title="$:/state/tab--959111941">
+<pre>$:/core/ui/ControlPanel/EditorTypes</pre>
+</div>
+<div created="20210923011818042" creator="Saka" modified="20210923013414127" modifier="Saka" title="$:/state/tab-1749438307">
 <pre>$:/core/ui/ControlPanel/Plugins</pre>
 </div>
-<div created="20210923011831653" modified="20210923012002284" title="$:/state/tab-2065006209">
-<pre>$:/core/ui/ControlPanel/Saving/GitHub</pre>
+<div created="20210923011831653" modified="20210923013221336" title="$:/state/tab-2065006209">
+<pre>$:/core/ui/ControlPanel/Saving/TiddlySpot</pre>
+</div>
+<div created="20210923012925137" modified="20210923012936789" title="$:/state/tab/moresidebar-1850697562">
+<pre>$:/core/ui/MoreSideBar/All</pre>
+</div>
+<div created="20210923012807253" modified="20210923013159217" title="$:/state/tab/sidebar--595412856">
+<pre>$:/core/ui/SideBar/Tools</pre>
 </div>
 <div title="$:/status/RequireReloadDueToPluginChange">
 <pre>yes</pre>
 </div>
-<div created="20210923011811282" list="$:/ControlPanel $:/themes/tiddlywiki/snowwhite GettingStarted" modified="20210923012649694" title="$:/StoryList">
+<div created="20210923013247449" creator="S" modified="20210923013247939" modifier="Sak" title="$:/status/UserName">
+<pre>Saka</pre>
+</div>
+<div created="20210923013133006" creator="Saka" list="$:/ControlPanel" modified="20210923013313705" modifier="Saka" title="$:/StoryList">
 <pre></pre>
 </div>
 <div created="20210923012230155" modified="20210923012231865" title="$:/theme">
