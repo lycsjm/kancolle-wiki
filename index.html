@@ -14515,8 +14515,8 @@ Error message and password prompt
 <div created="20210923082823271" creator="沙華" modified="20210924091856215" modifier="沙華" title="$:/state/tab/moresidebar-1850697562">
 <pre>$:/core/ui/MoreSideBar/Tags</pre>
 </div>
-<div created="20210923040902996" creator="沙華" modified="20210928143041518" modifier="沙華" title="$:/state/tab/sidebar--595412856">
-<pre>目錄</pre>
+<div created="20210923040902996" creator="沙華" modified="20210928143246834" modifier="沙華" title="$:/state/tab/sidebar--595412856">
+<pre>$:/core/ui/SideBar/Recent</pre>
 </div>
 <div created="20210924091304192" creator="沙華" modified="20210924091311909" modifier="沙華" title="$:/state/tag-manager/21夏">
 <pre>closed</pre>
@@ -14542,7 +14542,7 @@ Error message and password prompt
 <div created="20210923063712884" creator="e" modified="20210923063717028" modifier="沙" title="$:/status/UserName">
 <pre>沙華</pre>
 </div>
-<div created="20210928141427649" creator="沙華" list="未完成事項" modified="20210928143047011" modifier="沙華" title="$:/StoryList">
+<div created="20210928141427649" creator="沙華" list="遠征任務 未完成事項" modified="20210928143248348" modifier="沙華" title="$:/StoryList">
 <pre></pre>
 </div>
 <div created="20210923012230155" creator="沙華" modified="20210928134804542" modifier="沙華" title="$:/theme">
@@ -16460,12 +16460,20 @@ P3 運輸最關鍵的一點大概就是「不要貪」，適當多帶些戰斗�
 &lt;/$reveal&gt;
 </pre>
 </div>
-<div created="20210928140910856" creator="沙華" modified="20210928142904511" modifier="沙華" tags="任務" title="遠征任務">
-<pre>尚未完成：
-&lt;&lt;list-links [tag[遠征任務]!tag[done]]&gt;&gt;
+<div created="20210928140910856" creator="沙華" modified="20210928143406753" modifier="沙華" tags="任務" title="遠征任務">
+<pre>
+! 未完成的任務
 
-已完成：
-&lt;&lt;list-links [tag[遠征任務]tag[done]]&gt;&gt;</pre>
+&lt;$list filter=&quot;[!has[draft.of]tag[遠征任務]!tag[done]sort[created]]&quot;&gt;
+&lt;$checkbox tag=&quot;done&quot;&gt; &lt;$link&gt;&lt;&lt;toc-caption&gt;&gt;&lt;/$link&gt;&lt;/$checkbox&gt;&lt;br /&gt;
+&lt;/$list&gt;
+
+! 已完成的任務
+
+&lt;$list filter=&quot;[!has[draft.of]tag[遠征任務]tag[done]sort[created]]&quot;&gt;
+&lt;$checkbox tag=&quot;done&quot;&gt; ~~&lt;$link&gt;&lt;&lt;toc-caption&gt;&gt;&lt;/$link&gt;~~&lt;/$checkbox&gt;&lt;br /&gt;
+&lt;/$list&gt;
+</pre>
 </div>
 <div created="20210923042019000" creator="沙華" modified="20210928084858197" modifier="沙華" tags="tools 常用連結" title="編成工具" type="text/vnd.tiddlywiki">
 <pre>* [[制空計算機|https://noro6.github.io/kcTools/list/]]
@@ -16493,7 +16501,7 @@ P3 運輸最關鍵的一點大概就是「不要貪」，適當多帶些戰斗�
 <div created="20210928072717084" creator="沙華" modified="20210928072952137" modifier="沙華" tags="目錄" title="鎮守府精強方案">
 <pre>&lt;&lt;list-links [tag[鎮守府精強方案]]&gt;&gt;</pre>
 </div>
-<div created="20210928134435202" creator="沙華" modified="20210928142817041" modifier="沙華" tags="遠征任務 任務詳細" task-id="D43" title="D43-海上輸送航路の護衛強化" type="text/vnd.tiddlywiki">
+<div created="20210928134435202" creator="沙華" modified="20210928143403221" modifier="沙華" tags="遠征任務 任務詳細" task-id="D43" title="D43-海上輸送航路の護衛強化" type="text/vnd.tiddlywiki">
 <pre>[[參考|https://wikiwiki.jp/kancolle/%E4%BB%BB%E5%8B%99#id-D43]]
 
 &lt;$checkbox tag=&quot;done&quot;&gt;下列遠征各成功 1 次：&lt;/$checkbox&gt;
