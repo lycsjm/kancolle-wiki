@@ -16529,13 +16529,14 @@ P3 運輸最關鍵的一點大概就是「不要貪」，適當多帶些戰斗�
 
 {{外部連結：綜合資訊}}</pre>
 </div>
-<div created="20210929073349835" creator="沙華" modified="20210929082037832" modifier="沙華" tags="$:/tags/Macro" title="巨集：任務追縱">
+<div created="20210929073349835" creator="沙華" modified="20210929083131332" modifier="沙華" tags="$:/tags/Macro" title="巨集：任務追縱">
 <pre>\define track-task(id)
 &lt;$checkbox field=&quot;status_$id$&quot; checked=&quot;done&quot;&gt; $id$&lt;/$checkbox&gt;
 \end
 
 \define track-exp(id)
-&lt;$checkbox field=&quot;status_$id$&quot; checked=&quot;done&quot;&gt; &lt;$link [field:exp-id[4]]&gt;&lt;/$link&gt; &lt;/$checkbox&gt;
+&lt;$checkbox field=&quot;status_$id$&quot; checked=&quot;done&quot;&gt;
+&lt;$link to={{{ [field:exp-id[4]] }}}&gt;&lt;/$link&gt; &lt;/$checkbox&gt;
 \end
 
 * &lt;&lt;track-exp id: 4&gt;&gt;
