@@ -16576,7 +16576,7 @@ P3 運輸最關鍵的一點大概就是「不要貪」，適當多帶些戰斗�
 
 {{外部連結：綜合資訊}}</pre>
 </div>
-<div created="20210929073349835" creator="沙華" modified="20210930083509470" modifier="沙華" tags="$:/tags/Macro" title="巨集：任務追縱">
+<div created="20210929073349835" creator="沙華" modified="20210930083645848" modifier="沙華" tags="$:/tags/Macro" title="巨集：任務追縱">
 <pre>\define track-task(id)
 &lt;$checkbox field=&quot;status_$id$&quot; checked=&quot;done&quot;&gt; $id$&lt;/$checkbox&gt;
 \end
@@ -16603,14 +16603,14 @@ P3 運輸最關鍵的一點大概就是「不要貪」，適當多帶些戰斗�
 &lt;&lt; track-exp id: &lt;id&gt; &gt;&gt;
 ```
 
-設定 checkbox， 標籤是連結到該 `id` 的遠征。
+設定 checkbox， 標籤是連結到同 `id` 的遠征(`exp-id` 相同)。
 
 
 ```
 &lt;&lt;&lt;track-map id: &lt;id&gt; &gt;&gt;
 ```
 
-設定  checkbox，標籤是連結到該 `id` 的海域。
+設定  checkbox，標籤是連結同 `id` 的海域(欄位 `exp-id` 相同)。
 
 
 
